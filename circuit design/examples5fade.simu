@@ -1,0 +1,27 @@
+<circuit animate="0" speed="1000000" type="simulide_0.1" reactStep="50" noLinAcc="5" noLinStep="10">
+ 
+Resistor-4: 
+<item objectName="Resistor-4" Resistance="100" rotation="0" valLabely="6" labelrot="0" labely="-24" id="Resistor-4" y="-180" Show_id="false" x="-292" Show_res="true" Unit=" O" hflip="1" labelx="-12" itemtype="Resistor" valLabelx="-16" vflip="1" valLabRot="0"/>
+ 
+Led-2: 
+<item objectName="Led-2" Resistance="0.59999999999999998" MaxCurrent="0.029999999999999999" rotation="0" valLabely="0" labelrot="0" labely="-24" Color="0" id="Led-2" y="-180" Show_id="false" x="-212" hflip="-1" Threshold="2.3999999999999999" labelx="-16" itemtype="Led" valLabelx="0" vflip="1" valLabRot="0" Grounded="false"/>
+ 
+Arduino Uno-1: 
+<item objectName="Arduino Uno-1" rotation="0" valLabely="0" labelrot="0" labely="-20" id="Arduino Uno-1" y="-276" Show_id="true" x="-92" Program="C:/Users/lenovo/AppData/Local/simulide/codeeditor/buildIno/fading.ino.hex" hflip="1" labelx="0" itemtype="Arduino" valLabelx="0" vflip="1" Ser_Monitor="false" Mhz="16" valLabRot="0" Ser_Port="false"/>
+ 
+Connector-3: 
+<item enodeid="enode-3" objectName="Connector-3" startpinid="Led-2-lPin" rotation="0" valLabely="0" labelrot="0" labely="-24" id="Connector-3" y="-180" Show_id="false" x="-196" endpinid="Arduino Uno-1-PB1" hflip="1" labelx="-16" itemtype="Connector" valLabelx="0" vflip="1" pointList="-196,-180,-84,-180" valLabRot="0"/>
+ 
+Connector-5: 
+<item enodeid="enode-5" objectName="Connector-5" startpinid="Resistor-4-rPin" rotation="0" valLabely="0" labelrot="0" labely="-24" id="Connector-5" y="-180" Show_id="false" x="-276" endpinid="Led-2-rPin" hflip="1" labelx="-16" itemtype="Connector" valLabelx="0" vflip="1" pointList="-276,-180,-228,-180" valLabRot="0"/>
+ 
+Connector-6: 
+<item enodeid="enode-6" objectName="Connector-6" startpinid="Resistor-4-lPin" rotation="0" valLabely="0" labelrot="0" labely="-24" id="Connector-6" y="-180" Show_id="false" x="-308" endpinid="Arduino Uno-1-GND0" hflip="1" labelx="-16" itemtype="Connector" valLabelx="0" vflip="1" pointList="-308,-180,-308,-140,-84,-140" valLabRot="0"/>
+ 
+PlotterWidget: 
+<item objectName="PlotterWidget" contextMenuPolicy="1" focusPolicy="0" windowModified="false" windowModality="0" autoFillBackground="false" height="200" normalGeometry="" y="0" whatsThis="" frameSize="" x="0" windowIcon="" itemtype="Plotter" minimized="false" maximumSize="" childrenRect="" fullScreen="false" geometry="" width="200" maximumWidth="1000" minimumSizeHint="" sizeIncrement="" minimumSize="" rect="" toolTip="" baseSize="" visible="false" maximized="false" accessibleName="" inputMethodHints="0" minimumHeight="200" MinVolt="-500" sizeHint="" size="" statusTip="" frameGeometry="" childrenRegion="" palette="" cursor="" MaxVolt="500" windowOpacity="1" minimumWidth="200" windowTitle="" updatesEnabled="true" windowIconText="" isActiveWindow="true" accessibleDescription="" sizePolicy="" focus="false" acceptDrops="false" windowFilePath="" maximumHeight="200" toolTipDuration="-1" mouseTracking="false" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" styleSheet="" pos="" modal="false" enabled="true" locale="" layoutDirection="0"/>
+ 
+SerialPortWidget: 
+<item objectName="SerialPortWidget" contextMenuPolicy="1" focusPolicy="0" windowModified="false" windowModality="0" autoFillBackground="false" height="141" normalGeometry="" y="0" whatsThis="" frameSize="" x="0" windowIcon="" itemtype="SerialPort" minimized="false" maximumSize="" childrenRect="" fullScreen="false" geometry="" width="313" maximumWidth="450" minimumSizeHint="" sizeIncrement="" minimumSize="" rect="" toolTip="" SettingsProp=",0,3,0,0,0" baseSize="" visible="false" maximized="false" accessibleName="" inputMethodHints="0" minimumHeight="0" sizeHint="" size="" statusTip="" frameGeometry="" childrenRegion="" palette="" cursor="" windowOpacity="1" minimumWidth="0" windowTitle="Settings" updatesEnabled="true" windowIconText="" isActiveWindow="true" accessibleDescription="" sizePolicy="" focus="false" acceptDrops="false" windowFilePath="" maximumHeight="170" toolTipDuration="-1" mouseTracking="false" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" styleSheet="" pos="" modal="false" enabled="true" locale="" layoutDirection="0"/>
+ 
+</circuit>

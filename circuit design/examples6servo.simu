@@ -1,0 +1,24 @@
+<circuit speed="1000000" animate="0" reactStep="50" noLinStep="10" noLinAcc="5" type="simulide_0.1">
+ 
+Servo-2: 
+<item objectName="Servo-2" id="Servo-2" valLabely="0" hflip="1" labelx="-16" vflip="1" itemtype="Servo" labely="-24" rotation="0" y="-276" x="-316" Show_id="false" valLabelx="0" Speed="0.20000000000000001" valLabRot="0" labelrot="0"/>
+ 
+Arduino Uno-1: 
+<item Program="C:/Users/lenovo/AppData/Local/simulide/codeeditor/buildIno/servo.ino.hex" id="Arduino Uno-1" labelx="0" valLabRot="0" valLabely="0" valLabelx="0" labely="-20" x="-172" itemtype="Arduino" Ser_Port="false" rotation="0" objectName="Arduino Uno-1" y="-308" Ser_Monitor="false" vflip="1" labelrot="0" hflip="1" Mhz="16" Show_id="true"/>
+ 
+Connector-3: 
+<item id="Connector-3" labelx="-16" valLabRot="0" valLabely="0" valLabelx="0" labely="-24" x="-364" itemtype="Connector" pointList="-364,-292,-364,-348,4,-348,4,-212,-20,-212" enodeid="enode-3" rotation="0" objectName="Connector-3" y="-292" endpinid="Arduino Uno-1-V5V" vflip="1" labelrot="0" hflip="1" startpinid="Servo-2-in0" Show_id="false"/>
+ 
+Connector-4: 
+<item id="Connector-4" labelx="-16" valLabRot="0" valLabely="0" valLabelx="0" labely="-24" x="-364" itemtype="Connector" pointList="-364,-276,-412,-276,-412,-172,-164,-172" enodeid="enode-4" rotation="0" objectName="Connector-4" y="-276" endpinid="Arduino Uno-1-GND0" vflip="1" labelrot="0" hflip="1" startpinid="Servo-2-in1" Show_id="false"/>
+ 
+Connector-5: 
+<item id="Connector-5" labelx="-16" valLabRot="0" valLabely="0" valLabelx="0" labely="-24" x="-364" itemtype="Connector" pointList="-364,-260,-380,-260,-380,-212,-164,-212" enodeid="enode-5" rotation="0" objectName="Connector-5" y="-260" endpinid="Arduino Uno-1-PB1" vflip="1" labelrot="0" hflip="1" startpinid="Servo-2-in2" Show_id="false"/>
+ 
+PlotterWidget: 
+<item contextMenuPolicy="1" updatesEnabled="true" width="200" modal="false" windowFilePath="" windowTitle="" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" whatsThis="" layoutDirection="0" enabled="true" minimized="false" size="" objectName="PlotterWidget" styleSheet="" MaxVolt="500" pos="" baseSize="" sizeHint="" x="0" locale="" frameGeometry="" statusTip="" focus="false" windowModified="false" cursor="" mouseTracking="false" childrenRect="" windowIconText="" minimumWidth="200" maximumHeight="200" maximumSize="" frameSize="" maximized="false" focusPolicy="0" maximumWidth="1000" childrenRegion="" fullScreen="false" accessibleDescription="" rect="" acceptDrops="false" windowIcon="" sizePolicy="" palette="" toolTip="" height="200" isActiveWindow="true" minimumSize="" geometry="" windowModality="0" autoFillBackground="false" sizeIncrement="" normalGeometry="" windowOpacity="1" itemtype="Plotter" inputMethodHints="0" MinVolt="-500" toolTipDuration="-1" minimumHeight="200" visible="false" accessibleName="" y="0" minimumSizeHint=""/>
+ 
+SerialPortWidget: 
+<item contextMenuPolicy="1" updatesEnabled="true" width="313" modal="false" windowFilePath="" windowTitle="Settings" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" whatsThis="" layoutDirection="0" enabled="true" minimized="false" size="" objectName="SerialPortWidget" styleSheet="" pos="" baseSize="" sizeHint="" x="0" locale="" frameGeometry="" statusTip="" focus="false" windowModified="false" cursor="" mouseTracking="false" childrenRect="" windowIconText="" minimumWidth="0" maximumHeight="170" maximumSize="" frameSize="" maximized="false" focusPolicy="0" maximumWidth="450" childrenRegion="" fullScreen="false" accessibleDescription="" rect="" acceptDrops="false" windowIcon="" sizePolicy="" palette="" toolTip="" SettingsProp=",0,3,0,0,0" height="141" isActiveWindow="true" minimumSize="" geometry="" windowModality="0" autoFillBackground="false" sizeIncrement="" normalGeometry="" windowOpacity="1" itemtype="SerialPort" inputMethodHints="0" toolTipDuration="-1" minimumHeight="0" visible="false" accessibleName="" y="0" minimumSizeHint=""/>
+ 
+</circuit>

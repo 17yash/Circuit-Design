@@ -1,0 +1,36 @@
+<circuit type="simulide_0.1" reactStep="50" animate="0" noLinStep="10" noLinAcc="5" speed="1000000">
+ 
+Probe-53: 
+<item valLabRot="45" hflip="1" Show_id="false" itemtype="Probe" x="-380" labelrot="45" labelx="16" objectName="Probe-53" PlotterCh="2" y="-1060" rotation="-45" valLabelx="16" valLabely="0" id="Probe-53" Show_volt="true" labely="-16" vflip="1"/>
+ 
+Probe-52: 
+<item valLabRot="45" hflip="1" Show_id="false" itemtype="Probe" x="-476" labelrot="45" labelx="16" objectName="Probe-52" PlotterCh="1" y="-1060" rotation="-45" valLabelx="16" valLabely="0" id="Probe-52" Show_volt="true" labely="-16" vflip="1"/>
+ 
+Ground-44: 
+<item valLabRot="0" hflip="1" Show_id="false" itemtype="Ground" x="-260" labelrot="0" labelx="-16" objectName="Ground-44" y="-996" rotation="0" valLabelx="0" valLabely="0" id="Ground-44" labely="-24" vflip="1"/>
+ 
+Led-43: 
+<item hflip="1" Show_id="false" valLabelx="0" Threshold="2.3999999999999999" objectName="Led-43" MaxCurrent="0.029999999999999999" itemtype="Led" valLabely="0" labelx="-16" id="Led-43" labely="-24" Grounded="false" vflip="1" y="-1044" rotation="0" x="-436" labelrot="0" valLabRot="0" Color="0" Resistance="0.59999999999999998"/>
+ 
+Resistor-42: 
+<item hflip="1" Show_id="false" Show_res="true" valLabelx="-16" objectName="Resistor-42" itemtype="Resistor" valLabely="6" labelx="-12" id="Resistor-42" labely="-24" vflip="1" y="-1044" rotation="0" Unit=" O" x="-340" labelrot="0" valLabRot="0" Resistance="100"/>
+ 
+WaveGen-38: 
+<item hflip="1" Show_id="false" valLabelx="-16" Duty_Square="50" objectName="WaveGen-38" itemtype="WaveGen" valLabely="8" labelx="-64" id="WaveGen-38" labely="-24" Voltage="5" vflip="1" Quality="4" y="-1044" rotation="0" Freq="1" Unit=" V" x="-516" labelrot="0" Running="true" valLabRot="0" Show_Volt="true" Volt_Base="0" Wave_Type="3"/>
+ 
+Connector-45: 
+<item hflip="1" Show_id="false" valLabelx="0" endpinid="Led-43-lPin" objectName="Connector-45" itemtype="Connector" pointList="-500,-1044,-452,-1044" valLabely="0" labelx="-16" id="Connector-45" labely="-24" vflip="1" startpinid="WaveGen-38-outnod" y="-1044" rotation="0" enodeid="enode-45" x="-500" labelrot="0" valLabRot="0"/>
+ 
+Connector-50: 
+<item hflip="1" Show_id="false" valLabelx="0" endpinid="Resistor-42-lPin" objectName="Connector-50" itemtype="Connector" pointList="-420,-1044,-356,-1044" valLabely="0" labelx="-16" id="Connector-50" labely="-24" vflip="1" startpinid="Led-43-rPin" y="-1044" rotation="0" enodeid="enode-50" x="-420" labelrot="0" valLabRot="0"/>
+ 
+Connector-51: 
+<item hflip="1" Show_id="false" valLabelx="0" endpinid="Ground-44-Gnd" objectName="Connector-51" itemtype="Connector" pointList="-324,-1044,-260,-1044,-260,-1012" valLabely="0" labelx="-16" id="Connector-51" labely="-24" vflip="1" startpinid="Resistor-42-rPin" y="-1044" rotation="0" enodeid="enode-51" x="-324" labelrot="0" valLabRot="0"/>
+ 
+PlotterWidget: 
+<item width="665" geometry="" windowModified="false" enabled="true" mouseTracking="false" cursor="" accessibleName="" normalGeometry="" x="0" maximumWidth="1000" size="" minimumSizeHint="" windowIconText="" minimumHeight="200" autoFillBackground="false" styleSheet="" maximumSize="" windowOpacity="1" accessibleDescription="" rect="" windowTitle="" updatesEnabled="true" minimumWidth="200" minimized="false" statusTip="" palette="" baseSize="" focusPolicy="0" contextMenuPolicy="1" fullScreen="false" whatsThis="" windowModality="0" toolTip="" childrenRect="" height="200" focus="false" frameSize="" inputMethodHints="0" pos="" MaxVolt="500" maximumHeight="200" sizeHint="" windowFilePath="" objectName="PlotterWidget" sizeIncrement="" windowIcon="" modal="false" locale="" visible="true" itemtype="Plotter" minimumSize="" childrenRegion="" layoutDirection="0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" isActiveWindow="true" y="801" MinVolt="-500" acceptDrops="false" toolTipDuration="-1" frameGeometry="" maximized="false" sizePolicy=""/>
+ 
+SerialPortWidget: 
+<item width="313" geometry="" windowModified="false" enabled="true" mouseTracking="false" cursor="" accessibleName="" normalGeometry="" x="0" maximumWidth="450" size="" minimumSizeHint="" windowIconText="" minimumHeight="0" autoFillBackground="false" styleSheet="" maximumSize="" windowOpacity="1" accessibleDescription="" rect="" windowTitle="Settings" updatesEnabled="true" minimumWidth="0" minimized="false" statusTip="" palette="" baseSize="" focusPolicy="0" contextMenuPolicy="1" fullScreen="false" whatsThis="" windowModality="0" toolTip="" childrenRect="" height="141" focus="false" frameSize="" inputMethodHints="0" pos="" maximumHeight="170" sizeHint="" windowFilePath="" objectName="SerialPortWidget" sizeIncrement="" windowIcon="" modal="false" locale="" visible="false" itemtype="SerialPort" minimumSize="" childrenRegion="" layoutDirection="0" font="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" isActiveWindow="true" y="0" acceptDrops="false" SettingsProp=",0,3,0,0,0" toolTipDuration="-1" frameGeometry="" maximized="false" sizePolicy=""/>
+ 
+</circuit>
